@@ -1,0 +1,30 @@
+   63  git merge newFeature-Navbar
+   64  git status
+   65  git checkout newFeature-Navbar
+   66  git commit -A -m"modifiche colore navbar"
+   67  git commit -a -m"modifiche colore navbar"
+   68  git status
+   69  git checkout master
+   70  git status
+   71  git commit -am "modifiche titolo navbar e colore search"
+   72  git checkout newFeature-Navbar
+   73  git checkout master
+   74  git merge newFeature-Navbar
+   75  git commit -am "conflitto creato in navbar"
+   76  git push origin master
+   77  cd ..
+   78  git clone https://github.com/MerattiGiacomo/CompitoGIT.git
+   79  git clone https://github.com/sena-meucci/progettoStampa
+   80  cd progettostampa
+   81  cd progettoStampa
+   82  git status
+   83  git commit -am "inserito nome"
+   84  git branch bugFix
+   85  git checkout bugFix
+   86  git status
+   87  git add -am "errore di stampa risolto"
+   88  git commit -am "errore di stampa risolto"
+   89  git checkout master
+   90  git merge bugFux
+   91  git merge bugFix
+   92  git history 30 > comandi.txt
